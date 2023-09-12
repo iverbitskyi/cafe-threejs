@@ -1,8 +1,8 @@
+import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
 import React, { Suspense } from "react";
 import styled from "styled-components";
 import Navbar from "./Navbar";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
 
 const Section = styled.div`
 	height: 100vh;
@@ -127,12 +127,12 @@ const Hero = () => {
 			<Navbar />
 			<Container>
 				<Left>
-					<Title>Think. Make. Solve.</Title>
+					<Title>Tasty. Sweet. Coffee-like.</Title>
 					<WhatWeDo>
 						<Line src="./img/line.png" />
-						<Subtitle>What we Do</Subtitle>
+						<Subtitle>What we Do?</Subtitle>
 					</WhatWeDo>
-					<Desc>we enjoy creating delightful, human-centered digital experiences.</Desc>
+					<Desc>We make incredibly tasty coffee and desserts</Desc>
 					<Button>Learn More</Button>
 				</Left>
 				<Right>

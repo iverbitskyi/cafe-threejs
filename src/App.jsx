@@ -1,5 +1,5 @@
 import Contact from "./components/Contact";
-import Works from "./components/Works";
+import Coffee from "./components/Coffee";
 import Hero from "./components/Hero";
 import Who from "./components/Who";
 
@@ -23,7 +23,7 @@ function App() {
 		<Container>
 			<Hero />
 			<Who />
-			<Works />
+			<Coffee />
 			<Contact />
 		</Container>
 	);

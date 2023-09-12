@@ -1,5 +1,5 @@
-import React from "react";
 import styled from "styled-components";
+import React from "react";
 
 const Section = styled.div`
 	display: flex;
@@ -76,15 +76,15 @@ const Navbar = () => {
 					<Logo src="./img/logo.png" />
 					<List>
 						<ListItem>Home</ListItem>
-						<ListItem>Studio</ListItem>
-						<ListItem>Works</ListItem>
+						<ListItem>Who we are</ListItem>
+						<ListItem>Coffee</ListItem>
 						<ListItem>Contact</ListItem>
 					</List>
 				</Links>
 				<Icons>
 					{/* Changed the image due to copyright problems */}
 					<Icon src="./img/search.png" />
-					<Button>Hire Now</Button>
+					<Button>Contact Now</Button>
 				</Icons>
 			</Container>
 		</Section>

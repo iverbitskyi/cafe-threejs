@@ -21,6 +21,7 @@ const Left = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
+
 	@media only screen and (max-width: 768px) {
 		justify-content: center;
 	}
@@ -74,8 +75,8 @@ const Right = styled.div`
 `;
 
 const Contact = () => {
-	const ref = useRef();
 	const [success, setSuccess] = useState(null);
+	const ref = useRef();
 
 	const handleSubmit = (e) => {
 		e.preventDefault();
@@ -91,6 +92,7 @@ const Contact = () => {
 			}
 		);
 	};
+
 	return (
 		<Section>
 			<Container>

@@ -1,7 +1,8 @@
-import React, { Suspense } from "react";
-import styled from "styled-components";
 import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
+import React, { Suspense } from "react";
+import styled from "styled-components";
+
 import Cube from "./Cube";
 
 const Section = styled.div`
@@ -98,10 +99,8 @@ const Who = () => {
 						<Line src="./img/line.png" />
 						<Subtitle>Who we Are</Subtitle>
 					</WhatWeDo>
-					<Desc>
-						a creative group of designers and developers with a passion for the arts.
-					</Desc>
-					<Button>See our works</Button>
+					<Desc>A space where you can relax and have a good time with friends or alone.</Desc>
+					<Button>See our Coffee</Button>
 				</Right>
 			</Container>
 		</Section>
