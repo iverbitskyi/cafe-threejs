@@ -73,7 +73,6 @@ const Navbar = () => {
 		<Section>
 			<Container>
 				<Links>
-					<Logo src="./img/logo.png" />
 					<List>
 						<ListItem>Home</ListItem>
 						<ListItem>Who we are</ListItem>
